@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1f2a1c; /* Verde militar oscuro */
+  color: #e5e5e5;
+}
+
+nav {
+  background-color: #2f3b2d;
+  border-bottom: 3px solid #556b2f;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+li {
+  padding: 15px 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+li:hover {
+  background-color: #556b2f;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("img/helicoptero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.contenido img {
+  width: 40%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 50px;
+  border: 3px solid #556b2f;
+}
+
+footer {
+  background-color: #2f3b2d;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  color: white;
+}
